@@ -8,12 +8,13 @@ body {
 
 nav {
     display: flex;
+    flex-direction: row;
     background-color: #1f2937;
 }
 
 nav ul li {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     flex: 1 1 0;
     max-width: 1080px;
     justify-content: space-between;
@@ -21,4 +22,5 @@ nav ul li {
     background-color: #1f2937;
     margin: auto;
     padding: 0.5em 2em;
+    list-style: none;
 }
