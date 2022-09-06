@@ -1,3 +1,9 @@
 body {
     display: flex;
+    background-color: darkgray;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
 }
