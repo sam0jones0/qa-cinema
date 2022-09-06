@@ -11,6 +11,17 @@ nav {
     flex-direction: row;
     background-color: #1f2937;
 }
+ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
 
 nav ul li {
     display: flex;
